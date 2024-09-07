@@ -54,7 +54,7 @@ def on_button_click(self, text):
             self.input_text.set("")
       else:
           # append the clicked button's text to the current input
-          current_text = self.input_text.get()
+          current_text = self.input_text.get()#test comment
           self.input_text.set(current_text + text)
  # Initialize the GUI Application
 if __name__ == "__main__":
